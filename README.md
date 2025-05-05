@@ -38,6 +38,8 @@ pip install --upgrade setuptools pip
 
 ```
 pip install pillow
+pip install marshmallow==3.19.0
+pip install gevent>=1.4
 pip install apache-superset
 ```
 
@@ -92,9 +94,6 @@ openssl rand -base64 42
 ```
 # Create an admin user in your metadata database (use `admin` as username to be able to load the examples)
 export FLASK_APP=superset
-
-pip install marshmallow==3.19.0
-pip install gevent>=1.4
 
 superset db upgrade
 
