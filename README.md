@@ -8,6 +8,7 @@
 ```
 sudo apt update -y
 sudo apt upgrade -y
+sudo reboot now
 ```
 * Install dependencies
 
