@@ -6,7 +6,8 @@
 * Update Ubuntu/Debian
 
 ```
-sudo apt update -y & sudo apt upgrade -y
+sudo apt update -y
+sudo apt upgrade -y
 ```
 * Install dependencies
 
