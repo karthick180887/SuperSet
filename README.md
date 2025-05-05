@@ -91,6 +91,8 @@ openssl rand -base64 42
 # Create an admin user in your metadata database (use `admin` as username to be able to load the examples)
 export FLASK_APP=superset
 
+pip install marshmallow==3.19.0
+
 superset db upgrade
 
 superset fab create-admin
