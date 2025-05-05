@@ -92,6 +92,7 @@ openssl rand -base64 42
 export FLASK_APP=superset
 
 pip install marshmallow==3.19.0
+pip install gevent>=1.4
 
 superset db upgrade
 
