@@ -1,0 +1,10 @@
+age,gender,name,course,roll,marks,email
+28,Female,Hubert Oliveras,DB,02984,59,Annika Hoffman_Naoma Fritts@OOP.com
+29,Female,Toshiko Hillyard,Cloud,12899,62,Margene Moores_Marylee Capasso@DB.com
+28,Male,Celeste Lollis,PF,21267,45,Jeannetta Golden_Jenna Montague@DSA.com
+29,Female,Elenore Choy,DB,32877,29,Billi Clore_Mitzi Seldon@DB.com
+28,Male,Sheryll Towler,DSA,41487,41,Claude Panos_Judie Chipps@OOP.com
+28,Male,Margene Moores,MVC,52771,32,Toshiko Hillyard_Clementina Menke@MVC.com
+28,Male,Neda Briski,OOP,61973,69,Alberta Freund_Elenore Choy@DB.com
+28,Female,Claude Panos,Cloud,72409,85,Sheryll Towler_Alberta Freund@Cloud.com
+28,Male,Celeste Lollis,MVC,81492,64,Nicole Harwood_Claude Panos@MVC.com
