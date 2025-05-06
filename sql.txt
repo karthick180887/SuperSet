@@ -9,3 +9,6 @@ sudo apt-get update -y
 sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
 pip install mysqlclient
 ====================================================
+sudo systemctl restart superset.service
+sudo systemctl status superset.service
+=============================
