@@ -9,3 +9,7 @@ cd /app/superset/
 sudo apt-get update -y
 sudo apt-get install python3-dev libpq-dev build-essential -y
 pip install psycopg2
+===============================================================
+sudo systemctl restart superset.service
+sudo systemctl status superset.service
+=============================
