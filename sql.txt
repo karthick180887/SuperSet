@@ -4,3 +4,8 @@ Password: Welcome!12345
 Port: 3306
 database: nokia
 table: address
+================================================
+sudo apt-get update -y
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
+pip install mysqlclient
+====================================================
