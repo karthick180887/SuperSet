@@ -2,3 +2,5 @@ Hostname: 34.47.178.170
 USername: nokiasuperset
 Password: Welcome!12345
 Port: 3306
+database: nokia
+table: address
