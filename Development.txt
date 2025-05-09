@@ -40,7 +40,7 @@ npm link
 ===================================
 "location = /root/superset/superset-frontend"
 npm run dev-server - 1sr shell
-"location = /root/superset"
+"location = /root/superset" - 2nd shell
 nano docker-compose.yml - > 187 - 9000:90000 chage it 9001:9000 (cntrl + x + y + enter)
 docker-compose up 
 ==============================================================================
