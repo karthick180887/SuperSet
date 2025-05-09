@@ -6,6 +6,8 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 ==========================================================================================================================================
 sudo -i
+docker container prune{yes}
+cd ..
 git clone https://github.com/apache/superset.git
 cd superset
 docker-compose -f docker-compose.yml up --build
