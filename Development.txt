@@ -11,4 +11,5 @@ cd incubator-superset
 docker-compose -f docker-compose.yml up --build
 
 ===========================
+systemctl stop superset
 docker-compose down
