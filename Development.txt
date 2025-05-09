@@ -61,3 +61,7 @@ Non Root User
    29  sudo chown -R /tmp/superset-plugin-chart-hello-world
    30  sudo chown karthick1808 -R /tmp/superset-plugin-chart-hello-world
    31  yo @superset-ui/superset
+npm ci
+npm run build
+ 49  cd superset/superset-frontend/
+npm i -S /tmp/superset-plugin-chart-hello-world
