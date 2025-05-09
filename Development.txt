@@ -44,4 +44,20 @@ npm run dev-server - 1sr shell
 nano docker-compose.yml - > 187 - 9000:90000 chage it 9001:9000 (cntrl + x + y + enter)
 docker-compose up 
 ==============================================================================
-  yo @superset-ui/superset # Or the specific generator name
+Non Root User
+ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+   17  source ~/.bashrc  # or ~/.zshrc if using Zsh
+   18  nvm --version
+   19  nvm install 20.18.3
+   20  nvm alias default 20.18.3
+   21  node -v  # Should output v20.18.3
+   22  npm -v   # Check npm version
+   23  npm install -g yo @superset-ui/generator-superset
+   24  cd /tmp/superset-plugin-chart-hello-world/
+   25  ls
+   26  rm src/
+   27  yo @superset-ui/superset
+   28  sudo yo @superset-ui/superset
+   29  sudo chown -R /tmp/superset-plugin-chart-hello-world
+   30  sudo chown karthick1808 -R /tmp/superset-plugin-chart-hello-world
+   31  yo @superset-ui/superset
