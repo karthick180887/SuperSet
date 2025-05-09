@@ -37,3 +37,6 @@ npm i -g @superset-ui/generator-superset
 cd /root/superset/superset-frontend/packages/generator-superset
 npm i
 npm link
+===================================
+"location = /root/superset/superset-frontend"
+npm run dev-server
