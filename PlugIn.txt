@@ -1,0 +1,96 @@
+# Super Set Plugin Folder Commands - Examples
+
+Here are some examples of commands you might use to create and manage a "super set" plugin folder structure:
+
+## Basic Folder Creation Commands
+
+bash
+# Create the main plugin folder structure
+mkdir -p superset-plugin/{src/{components,utils,types},public,test,config}
+
+# Create with nested assets folders
+mkdir -p superset-plugin/src/{assets/{images,fonts,icons},styles}
+
+
+## Git Initialization Commands
+
+bash
+# Initialize git repo and create standard files
+cd superset-plugin
+git init
+touch README.md .gitignore .eslintrc .prettierrc
+
+
+## NPM/Yarn Setup Commands
+
+bash
+# Initialize package.json with private flag (for plugins)
+npm init -y --private
+# or with yarn
+yarn init -y --private
+
+
+## Build System Commands
+
+bash
+# Add common Superset plugin dependencies
+yarn add @superset-ui/core @superset-ui/chart @superset-ui/color
+# or with npm
+npm install @superset-ui/core @superset-ui/chart @superset-ui/color --save
+
+
+## Development Commands
+
+bash
+# Add development scripts to package.json
+# Then run with:
+yarn dev
+# or
+npm run dev
+
+
+## Build Commands
+
+bash
+# Add build script to package.json
+# Then run with:
+yarn build
+# or
+npm run build
+
+
+## Plugin Registration Commands
+
+bash
+# Create plugin registration file
+touch src/plugin/index.ts
+# Add main plugin bootstrap code
+
+
+## Example Full Setup Script
+
+bash
+#!/bin/bash
+
+# Create plugin folder structure
+PLUGIN_NAME="my-superset-plugin"
+mkdir -p $PLUGIN_NAME/{src/{components,utils,types,assets,styles},public,test,config}
+
+# Navigate into plugin directory
+cd $PLUGIN_NAME
+
+# Initialize git
+git init
+touch README.md .gitignore .eslintrc .prettierrc
+
+# Initialize npm/yarn
+npm init -y --private
+
+# Add dependencies
+npm install @superset-ui/core @superset-ui/chart @superset-ui/color --save
+npm install typescript webpack webpack-cli --save-dev
+
+echo "Superset plugin folder structure created successfully!"
+
+
+Would you like me to elaborate on any specific part of these commands or provide more specialized examples?
