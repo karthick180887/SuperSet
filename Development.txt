@@ -45,7 +45,7 @@ npm run dev-server - 1sr shell
 "location = /root/superset" - 2nd shell
 nano docker-compose.yml - > 187 - 9000:90000 chage it 9001:9000 (cntrl + x + y + enter)
 docker-compose up 
-==============================================================================
+==============================================================================================================================================================================
 Non Root User
  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
    17  source ~/.bashrc  # or ~/.zshrc if using Zsh
@@ -67,10 +67,8 @@ npm ci
 npm run build
  49  cd superset/superset-frontend/
 npm i -S /tmp/superset-plugin-chart-hello-world
-================
 After this edit the superset-frontend/src/visualizations/presets/MainPreset.js and make the following changes:
-
 import { SupersetPluginChartHelloWorld } from 'superset-plugin-chart-hello-world';
 Next, import the viz plugin and add the following to the array that's passed to the plugins property:
-
 new SupersetPluginChartHelloWorld().configure({ key: 'ext-hello-world' }),
+====================================================================================
