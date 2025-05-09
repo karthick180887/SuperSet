@@ -17,3 +17,16 @@ systemctl stop superset
 docker-compose down
 ======================================
 http://40.81.227.25:8088/login/
+======================================
+"location=/root/superset"
+docker-compose down
+docker-compose up
+====================================
+"location = /root/superset/superset-frontend"
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+source ~/.bashrc  # or ~/.zshrc if using Zsh
+nvm --version
+nvm install 20.18.3
+nvm alias default 20.18.3
+node -v  # Should output v20.18.3
+npm -v   # Check npm version
