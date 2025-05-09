@@ -30,3 +30,7 @@ nvm install 20.18.3
 nvm alias default 20.18.3
 node -v  # Should output v20.18.3
 npm -v   # Check npm version
+====================
+"location = /root/superset/superset-frontend"
+npm i -g yo
+npm i -g @superset-ui/generator-superset
