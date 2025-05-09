@@ -44,3 +44,4 @@ npm run dev-server - 1sr shell
 nano docker-compose.yml - > 187 - 9000:90000 chage it 9001:9000 (cntrl + x + y + enter)
 docker-compose up 
 ==============================================================================
+  yo @superset-ui/superset # Or the specific generator name
