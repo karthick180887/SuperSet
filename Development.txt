@@ -33,6 +33,8 @@ npm -v   # Check npm version
 ====================
 "location = /root/superset/superset-frontend"
 npm i -g yo
+=====================================
+
 npm i -g @superset-ui/generator-superset
 cd /root/superset/superset-frontend/packages/generator-superset
 npm i
@@ -65,3 +67,10 @@ npm ci
 npm run build
  49  cd superset/superset-frontend/
 npm i -S /tmp/superset-plugin-chart-hello-world
+================
+After this edit the superset-frontend/src/visualizations/presets/MainPreset.js and make the following changes:
+
+import { SupersetPluginChartHelloWorld } from 'superset-plugin-chart-hello-world';
+Next, import the viz plugin and add the following to the array that's passed to the plugins property:
+
+new SupersetPluginChartHelloWorld().configure({ key: 'ext-hello-world' }),
