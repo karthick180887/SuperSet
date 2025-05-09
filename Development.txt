@@ -9,3 +9,6 @@ sudo -i
 git clone https://github.com/apache-superset/incubator-superset.git
 cd incubator-superset
 docker-compose -f docker-compose.yml up --build
+
+===========================
+docker-compose down
