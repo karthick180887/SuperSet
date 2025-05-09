@@ -15,3 +15,5 @@ docker-compose -f docker-compose.yml up --build
 ===========================
 systemctl stop superset
 docker-compose down
+======================================
+http://40.81.227.25:8088/login/
